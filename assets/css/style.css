@@ -1,0 +1,144 @@
+h3 {
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+.container{
+	background-color: teal;
+	width: 100%;
+	height: 980px;
+	background: url("../images/starwars.jpg") no-repeat;
+    background-size: cover;
+
+}
+
+.playerChoice{
+	/*background-color: black;*/
+	width: 100%;
+	height: 20%;
+	color: white;
+}
+
+
+.attackSec{
+	/*background-color: teal;*/
+	width: 100%;
+	height: 20%;
+	color: white;
+}
+
+.defenderChoice{
+	/*background-color: black;*/
+	width: 100%;
+	height: 20%;
+	color: white;
+}
+
+.defenderSec{
+	/*background-color: teal;*/
+	width: 100%;
+	height: 20%;
+	color: white;
+}
+
+#darthMaul{
+	background-color: white;
+	width:15%;
+	height: 70%;
+	position: relative;
+	float: left;
+	text-align: center;
+	border: 1px solid black;
+	margin: 5px;
+	background: url("../images/darthMaul.png") no-repeat;
+    background-size: cover;
+
+}
+
+#darthMaul p{
+	position: absolute;
+	bottom: 0;
+	margin-left: 35%;
+}
+
+
+#sepDroid{
+	background-color: white;
+	width:15%;
+	height: 70%;
+	position: relative;
+	float: left;
+	text-align: center;
+	border: 1px solid black;
+	margin: 5px;
+	background: url("../images/droids.jpg") no-repeat;
+    background-size: cover;
+}
+
+#sepDroid p{
+	position: absolute;
+	bottom: 0;
+	margin-left: 35%;
+}
+
+#obWan{
+	background-color: white;
+	width:15%;
+	height: 70%;
+	position: relative;
+	float: left;
+	text-align: center;
+	border: 1px solid black;
+	margin: 5px;
+	background: url("../images/obiwan.jpg") no-repeat;
+    background-size: cover;
+}
+
+#obWan p{
+	position: absolute;
+	bottom: 0;
+	margin-left: 35%;
+}
+
+#quiGon{
+	background-color: white;
+	width:15%;
+	height: 70%;
+	position: relative;
+	float: left;
+	text-align: center;
+	border: 1px solid black;
+	margin: 5px;
+	background: url("../images/QuiGonJinn.png") no-repeat;
+    background-size: cover;
+}
+
+#quiGon p{
+	position: absolute;
+	bottom: 0;
+	margin-left: 35%;
+}
+
+#attackBut{
+
+	float: left;
+	display: inline-block;
+	
+}
+
+.css-typing {
+    width: 35em;
+    white-space:nowrap;
+    overflow:hidden;
+    -webkit-animation: type 1s steps(50, end);
+    animation: type 1s steps(50, end);
+}
+
+@keyframes type{
+    from { width: 0; }
+}
+
+@-webkit-keyframes type{
+    from { width: 0; }
+}
+
