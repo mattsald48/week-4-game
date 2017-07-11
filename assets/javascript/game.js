@@ -20,10 +20,10 @@ var resetBoo = false; // returns true when there is a reset button present
 var reset = "";       //var for reset button
 
 //assigning value to id of cards
-$("#darthMaul").data("stats", {currentHP: 120, charAP: 8, currentMultiplyer: 1, playerName: "Darth Maul"});
-$("#sepDroid").data("stats", {currentHP: 100, charAP: 5, currentMultiplyer: 1, playerName: "Separatist Droids"});
-$("#obWan").data("stats", {currentHP: 150, charAP: 20, currentMultiplyer: 1, playerName: "Obi-Wan Kenobi"});
-$("#quiGon").data("stats", {currentHP: 180, charAP: 18, currentMultiplyer: 1, playerName: "Qui-Gon Jinn"});
+$("#darthMaul").data("stats", {currentHP: 120, charAP: 12, currentMultiplyer: 1, playerName: "Darth Maul"});
+$("#sepDroid").data("stats", {currentHP: 100, charAP: 15, currentMultiplyer: 1, playerName: "Separatist Droids"});
+$("#obWan").data("stats", {currentHP: 150, charAP: 11, currentMultiplyer: 1, playerName: "Obi-Wan Kenobi"});
+$("#quiGon").data("stats", {currentHP: 180, charAP: 9, currentMultiplyer: 1, playerName: "Qui-Gon Jinn"});
 //console.log($("#darthMaul").data("stats").currentHP);
 
 
