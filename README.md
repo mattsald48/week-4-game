@@ -15,3 +15,5 @@ Hit the attack button until you foe has been defeated.
 ![GitHub Logo](/assets/images/starcardgame3.gif)
 
 Repeat until all foes are gone or you fall in battle.
+
+https://mattsald48.github.io/week-4-game/
